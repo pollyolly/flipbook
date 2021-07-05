@@ -48,32 +48,32 @@
             </v-card-title>
             <v-card-text>
                 <div class="d-flex flex-row">
-                    <v-text-field outlined dense label="Title" v-model="myTitle" clearable="true"></v-text-field>
+                    <v-text-field outlined dense label="Title" v-model="myTitle" :clearable="true"></v-text-field>
                 </div>
                 <div class="d-flex flex-row">
-                    <v-textarea outlined dense label="Abstract" v-model="abstract" clearable="true"></v-textarea>
+                    <v-textarea outlined dense label="Abstract" v-model="abstract" :clearable="true"></v-textarea>
                 </div>
                 <div class="d-flex flex-row">
-                    <v-text-field outlined dense label="Keywords" v-model="keywords" clearable="true"></v-text-field>
+                    <v-text-field outlined dense label="Keywords" v-model="keywords" :clearable="true"></v-text-field>
                 </div>
                 <div class="d-flex flex-row">
-                    <v-text-field outlined dense label="Flipbook Link" v-model="flipbooklink" clearable="true"></v-text-field>
-                    <v-text-field outlined dense label="Flipbook Title" v-model="flipbooktitle" clearable="true"></v-text-field>
+                    <v-text-field outlined dense label="Flipbook Link" v-model="flipbooklink" :clearable="true"></v-text-field>
+                    <v-text-field outlined dense label="Flipbook Title" v-model="flipbooktitle" :clearable="true"></v-text-field>
                 </div>
                 <div class="d-flex flex-row">
-                    <v-text-field outlined dense label="College Abbreviation" v-model="collegeAbrrevation" clearable="true"></v-text-field>
+                    <v-text-field outlined dense label="College Abbreviation" v-model="collegeAbrrevation" :clearable="true"></v-text-field>
                 </div>
                 <div class="d-flex flex-row">
-                    <v-text-field outlined dense label="Department" v-model="department" clearable="true"></v-text-field>
+                    <v-text-field outlined dense label="Department" v-model="department" :clearable="true"></v-text-field>
                 </div>
                 <div class="d-flex flex-row">
-                    <v-text-field outlined dense label="Year" v-model="year" clearable="true"></v-text-field>
+                    <v-text-field outlined dense label="Year" v-model="year" :clearable="true"></v-text-field>
                 </div>
                 <div class="d-flex flex-row">
-                    <v-text-field outlined dense label="Subject Field" v-model="subjectField" clearable="true"></v-text-field>
+                    <v-text-field outlined dense label="Subject Field" v-model="subjectField" :clearable="true"></v-text-field>
                 </div>
                 <div class="d-flex flex-row">
-                    <v-text-field outlined dense label="Subject Sub Field" v-model="subjectSubField" clearable="true"></v-text-field>
+                    <v-text-field outlined dense label="Subject Sub Field" v-model="subjectSubField" :clearable="true"></v-text-field>
                 </div>
             </v-card-text>
           </v-card>
